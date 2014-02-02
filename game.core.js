@@ -10,16 +10,8 @@ var game_core = function(gameID){
 		player2 = null;
 	}
 
+//	this.players.player1.on('load game', loadGame);
 
-}
-
-var player = function(socket, username){
-	this.username = username;
-	this.socket = socket;
-}
-
-game_core.loadGame(){
-	var user = this.username;
 }
 
 var game_core = module.exports;
